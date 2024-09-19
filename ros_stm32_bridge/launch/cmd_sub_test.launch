@@ -1,0 +1,4 @@
+<launch>
+<node pkg="ros_stm32_bridge" type="cmd_sub" name="cmd_sub" output="screen"/>
+<node pkg="ros_stm32_bridge" type="cmd_pub" name="cmd_pub" output="screen"/>
+</launch>

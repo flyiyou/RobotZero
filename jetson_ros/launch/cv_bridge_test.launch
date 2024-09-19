@@ -1,0 +1,3 @@
+<launch>
+<node pkg="jetson_ros" type="cv_bridge_test.py" name="cv_bridge_test" output="screen"/>
+</launch>
